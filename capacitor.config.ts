@@ -1,12 +1,9 @@
-import { CapacitorConfig } from '@capacitor/cli';
+import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.isadev.mishrashardendu22',
-  appName: 'Mishra Portfolio',
-  webDir: 'out',
-  server: {
-    androidScheme: 'https',
-  },
+  appId: 'com.dev.mishrashardendu22',
+  appName: 'mishrashardendu22',
+  webDir: 'out'
 };
 
 export default config;
